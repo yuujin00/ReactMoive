@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+.movie_detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 2px solid lightgray;
+  width: 100%;
+
+}
+
+.detail_name__starpoint {
+  display: flex;
+  width: -max-;
+  justify-content: space-evenly;
+  border: 2px solid blue;
+  width: 100%;
+
+}
+
+.detail_poster_contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  gap: 40px;
+  width: 100%;
+}
+
+.detail_genre_character_plot {
+  border: 2px solid red;
+}
+
+.poster {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.genre_genre {
+  display: flex;
+  
+}
+
+
+
+.staffs {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+.plot {
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+}

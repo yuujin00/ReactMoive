@@ -1,0 +1,93 @@
+/* Header.css */
+ 
+/* Header.css */
+
+* {
+  text-decoration: none;
+  text-decoration-line: none;
+  color: black;
+}
+
+
+
+.header {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  text-shadow: 3px 3px 3px #888;
+  margin-left: 40px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  margin: 0 20px;
+  border: 2px solid #ddd;
+  margin-top: 20px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  width: 500px;
+  height: 15px;
+  background-color: #fff;
+}
+
+
+.search-bar button[type="submit"] {
+  margin-left: 0.5rem;
+  background-color: #ddd;
+  color: black;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  height: 70px;
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  margin-right: 80px;
+  margin-top: 10px;
+}
+
+.auth-buttons button {
+  margin-left: 0.5rem;
+  background-color: #ddd;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  
+}
+.hide-header {
+  display: none;
+}
+
+.search-results {
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+}
+
+.search-results p {
+  color:black;
+}
